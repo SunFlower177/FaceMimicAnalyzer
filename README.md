@@ -43,3 +43,55 @@ All results are automatically visualized and summarized in a human-readable repo
   Simple UI for uploading media and running analysis.
 
 ---
+## 🛠️ Pipeline Overview
+
+Input Media (Video / Image) 
+        ➡ 
+Frame Extraction 
+        ➡ 
+Expression Segmentation (single known expression) 
+        ➡ 
+Blendshape & Landmark Extraction (MediaPipe)
+        ➡
+Keyframe Reselection (AU peak)
+        ➡
+Relative Feature Computation
+        ➡
+Similarity Analysis (Static + Dynamic + Structure)
+        ➡
+Visualization & Report Generation
+
+---
+
+## 🎯 Use Cases
+
+Facial expression imitation evaluation
+
+Human behavior analysis
+
+Psychology / ASD-related research (expression consistency)
+
+Human-computer interaction research
+
+Expression-based training or feedback systems
+
+---
+
+## 🔮 Future Work
+
+Support for automatic expression classification
+
+Multi-expression segmentation in long videos
+
+Deep learning–based similarity metrics
+
+Quantitative scoring benchmarks
+
+Model optimization for real-time use
+
+---
+
+## 📜 License
+
+This project is for research and educational purposes.
+
