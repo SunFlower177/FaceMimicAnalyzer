@@ -53,7 +53,7 @@ All results are automatically visualized and summarized in a human-readable repo
 
 ---
 ## 🛠️ Pipeline Overview
-
+```text
 Input Media (Video / Image) 
         ➡ 
 Frame Extraction 
@@ -69,7 +69,7 @@ Relative Feature Computation
 Similarity Analysis (Static + Dynamic + Structure)
         ➡
 Visualization & Report Generation
-
+```
 ---
 
 ## 🎯 Use Cases
