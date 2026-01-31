@@ -55,19 +55,19 @@ All results are automatically visualized and summarized in a human-readable repo
 ## 🛠️ Pipeline Overview
 ```text
 Input Media (Video / Image) 
-        ➡ 
+        ↓ 
 Frame Extraction 
-        ➡ 
+        ↓ 
 Expression Segmentation (single known expression) 
-        ➡ 
+        ↓ 
 Blendshape & Landmark Extraction (MediaPipe)
-        ➡
+        ↓
 Keyframe Reselection (AU peak)
-        ➡
+        ↓
 Relative Feature Computation
-        ➡
+        ↓
 Similarity Analysis (Static + Dynamic + Structure)
-        ➡
+        ↓
 Visualization & Report Generation
 ```
 ---
@@ -100,7 +100,7 @@ Model optimization for real-time use
 
 ---
 
-## 📜 License
+## 📜 Disclaimer
 
 This project is for research and educational purposes.
 
